@@ -1,0 +1,32 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "subtitles": "ts-node src/subtitles.ts",
+    "review": "ts-node src/review.ts",
+    "summarize": "ts-node src/summarize.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.0.47",
+    "@langchain/openai": "^0.0.28",
+    "cheerio": "^1.0.0-rc.12",
+    "epub2": "^3.0.2",
+    "epubjs": "^0.3.93",
+    "html-to-text": "^9.0.5",
+    "langchain": "^0.1.33",
+    "peggy": "^3.0.2",
+    "srt-parser-2": "^1.2.3",
+    "word2vec": "^1.1.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
