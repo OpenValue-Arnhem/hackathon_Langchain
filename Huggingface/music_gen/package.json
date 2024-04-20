@@ -1,0 +1,19 @@
+{
+  "name": "hf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx bun src/huggingface.ts",
+    "vocals": "npx bun src/vocals.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@xenova/transformers": "github:xenova/transformers.js#v3",
+    "phonemize": "^0.1.1",
+    "wavefile": "^11.0.0"
+  }
+}
